@@ -5,7 +5,7 @@ to inspect/modify the code.
 1. Requirements
 ===============
 
-You will need Python 2.7 and wxWidgets (2.8) and its Python bindings to
+You will need Python 2.7 and wxWidgets (3.0) and its Python bindings to
 run Trelby. You also need the lxml Python library (http://lxml.de/) and
 the mock library (https://pypi.python.org/pypi/mock).
 
@@ -96,10 +96,10 @@ as follows:
 
  -The following characters activate special behavior:
 
-  -"å": Load "sample.trelby".
+  -"ï¿½": Load "sample.trelby".
 
-  -"¤": Call function MyCtrl.cmdTest.
+  -"ï¿½": Call function MyCtrl.cmdTest.
 
-  -"½": Run speed tests.
+  -"ï¿½": Run speed tests.
 
    (The above characters are in the ISO-8859-1 character set.)
